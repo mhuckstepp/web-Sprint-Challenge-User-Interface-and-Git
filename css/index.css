@@ -143,7 +143,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-size: 18px;
+  font-size: 19px;
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
@@ -155,6 +155,7 @@ p {
 .container {
   width: 800px;
   margin: 0 auto;
+  line-height: 1.5rem;
 }
 
 header {
@@ -173,6 +174,7 @@ nav {
 nav a {
   text-decoration: none;
   color: black;
+  font-size: 14px;
 }
 
 .banner {
@@ -198,6 +200,12 @@ nav a {
   background-repeat: no-repeat;
 }
 
+.abTopText {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -215,6 +223,42 @@ nav a {
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
+}
+
+.contentAbout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px dashed black;
+}
+
+.aboutC {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  margin: 20px 20px 20px 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.aboutC h2 {
+  margin-top: 10px;
+}
+
+.aboutC button {
+  background-color: white;
+  width: 145px;
+  height: 45px;
+  border: 2.5px solid black;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+.aboutC button a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
 }
 
 .middle-content h2 {
@@ -242,7 +286,6 @@ nav a {
 .middle-content .boxes .box:nth-of-type(1) {
   background-color: teal;
 }
-
 .middle-content .boxes .box:nth-of-type(2) {
   background-color: gold;
 }
@@ -269,6 +312,10 @@ nav a {
 }
 .middle-content .boxes .box:nth-of-type(10) {
   background-color: dodgerblue;
+}
+
+.abBottomText {
+  margin-top: 30px;
 }
 
 .bottom-content {
